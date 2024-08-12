@@ -241,6 +241,25 @@ margin-left: 20px;
 
 }
 
+.name{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 900;
+margin-top: -75px;
+margin-left: 35px;
+}
+
+.train{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin-left: 35px;
+margin-top: 5px;
+}
+
+
 @media screen and (max-width:576px) {
     .nav-options{
         display: none;
@@ -383,6 +402,27 @@ h4{
         margin-left: 18px;
         }
         .team{
+            width: 90%;
+           margin: 66px auto;
+        }
+        .team-container{
+            width: 93%;
+            height: 1188px;
+            border-radius: 18px;
+        background: rgba(255, 255, 255, 0.1);
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       gap: 20px;
+       
+     
+        }
+
+        .one{
             display: none;
         }
+
+
+
 }
