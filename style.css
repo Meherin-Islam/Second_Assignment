@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 body{
     font-family: "Inter", sans-serif;
+    background: black
 }
 *{
     margin: 0;
@@ -11,31 +12,36 @@ body{
     display: flex;
     justify-content: space-between;
     width: 75%;
-    margin-top: 95px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 95px 120px 0px 120px;
+   
 
 }
 h3{
     color: rgb(230, 83, 60);
 font-size: 2.25rem;
 font-weight: 800;
+
 }
 .nav-options{
+    width: 460px;
     display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
+   justify-content: space-evenly;
     height: 46px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
 justify-content: center;
+align-items: center;
+margin-bottom: 32px;
 
-padding: 4px;
 }
 .nav-options>p{
+    color: rgb(255, 255, 255);
     font-size: 1.125rem;
 font-weight: 400;
-margin: 0px 47px;
+align-items: center;
+margin-right: 45px;
+
+
 }
 .orange{
     color: rgb(255, 255, 255);
@@ -45,4 +51,222 @@ font-weight: 600;
 background: rgb(230, 83, 60);
 padding: 8px 20px 8px 20px;
 
+
 }
+
+.shape{
+ display: flex;
+ background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.left{
+    width: 35%;
+    margin-left: 120px;
+    margin-top: 96px;
+    margin-right: 170px;
+}
+h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 4.5rem ;
+font-weight: 900;
+margin-bottom: 28px;
+}
+.shp{
+font-family: 'Miama', sans-serif;
+font-size: 5rem ;
+}
+.grey{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+font-weight: 600;
+    border-radius: 42px;
+    border: none;
+background: rgb(230, 83, 60);
+padding: 16px 40px 16px 40px;
+margin-top: 28px;
+
+}
+.app{
+    color: rgb(255, 255, 255);
+font-size: 1.125rem;
+font-weight: 600;
+background: black;
+    border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 16px 40px 16px 40px;
+margin-left: 14px;
+}
+
+.right{
+    margin-bottom: 100px;
+}
+.bars{
+    display: none;
+}
+.habit{
+    width: 75%;
+    margin-left: 150px;
+}
+.img-container{
+    width: 75%;
+height: 274px;
+display: flex;
+gap: 40px;
+margin-bottom: 100px;
+}
+h1{
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+}
+.cntr{
+    text-align: center;
+    width: 670px;
+    color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+margin-left: 180px;
+margin-bottom: 58px;
+}
+
+.info{
+justify-content: center;
+    width: 230px;
+height: 274px;
+
+}
+.info > img{
+    border-radius: 50%;
+    margin-left: 25px
+    
+     
+}
+
+h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+margin-top: 30px;
+margin-bottom: 6px;
+}
+.subtle{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    width: 230px;
+    
+}
+.run{
+    display: flex;
+    width: 75%;
+    /* margin: auto; */
+    margin-left: 155px;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+height: 371px;
+margin-bottom: 100px;
+}
+
+.mile{
+    width: 38%;
+    margin-left: 54px;
+    padding-top:  10px;
+    margin-right: 175px;
+    
+}
+
+h4{
+margin-top: 41px;
+margin-bottom: 14px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+
+}
+
+.jogging > img{
+    
+margin-top: 30px;
+    border-radius: 18px;
+}
+
+@media screen and (max-width:576px) {
+    .nav-options{
+        display: none;
+        
+    }
+    .container{
+       
+        width: 80%;
+        margin: 52px 20px 52px 20px;
+    }
+    .bars{
+width: 20px;
+        display: block;
+        
+    }
+    .bars i {
+  color: white;
+    }
+    
+    .shape{
+        flex-direction: column;
+    }
+    .left{
+        width: 80%;
+        margin-top: 0px;
+        margin: auto;
+    }
+    h2{
+        width: 260px;
+        height: 129px;
+    font-size: 2.25rem ;
+    font-weight: 900;
+    margin-top: 10px;
+    }
+    .shp{
+    font-size: 2.5rem ;
+    }
+    .grey{
+        width: 274px;
+        height: 96px;
+    font-size: 16px;
+    
+    }
+    .hide{
+        display: none;
+    }
+    .btn{
+        
+        font-size: 12px;
+    font-weight: 600;
+        padding: 16px 40px 16px 40px;
+    margin-top: 28px;
+    margin-right: 12px;
+    
+    }
+    .app{
+        
+        font-size: 12px;
+ padding: 16px 40px 16px 40px;
+    margin-left: 0px
+    }
+
+.right  {
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 0px;
+}
+
