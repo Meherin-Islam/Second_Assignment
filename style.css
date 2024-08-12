@@ -2,12 +2,14 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 body{
     font-family: "Inter", sans-serif;
-    background: black
+    background: black;
 }
 *{
     margin: 0;
     padding: 0;
 }
+
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -209,30 +211,33 @@ margin-top: 30px;
 }
 
 .team-container{
-    width: 95%;
+    width: 96%;
     height: 604px;
     border-radius: 18px;
 background: rgba(255, 255, 255, 0.1);
-margin-left: 50px;
+margin-left: 25px;
 display: grid;
 grid-template-columns: repeat(3, 305px);
 grid-template-rows: repeat(2, 272px);
 gap: 20px;
 
 
+
 }
 
 .information{
     
-    width: 305px;
+    width: 305.6px;
     height: 272px;
 
 }
 
 .information > img{
-width: 305px;
+width: 305.6px;
 height: 272px;
 border-radius: 18px;
+margin-top: 20px;
+margin-left: 20px;
 
 }
 
@@ -241,17 +246,22 @@ border-radius: 18px;
         display: none;
         
     }
+    h3{
+        margin-left: 20px;
+    }
     .container{
        
         width: 80%;
         margin: 52px 20px 52px 20px;
     }
     .bars{
-width: 20px;
+
         display: block;
+
         
     }
     .bars i {
+        margin-top: 10px;
   color: white;
     }
     
@@ -315,7 +325,7 @@ margin-bottom: 0px;
 h1{
     font-size: 2rem;
     margin-top: -10px;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-bottom: 14px;
     
 }
@@ -336,6 +346,7 @@ gap: 40px;
 margin-bottom: 66px;
 }
 .run{
+    width: 80%;
     flex-direction: column;
     height: 531px;
     
@@ -344,16 +355,19 @@ margin-bottom: 66px;
 }
 h4{
     margin-top: 11px;
-   
-   
     font-size: 2rem;
+  
    
      }
+
+     
+     
      .mile{
-        width: 80%;
+        width: 70%;
         
         padding-top:  10px;
         margin-left: 34px;
+        margin-right: 34px;
         
     }
     .bok{
@@ -361,10 +375,14 @@ h4{
         font-size: 1.25rem;
       
     }
-    .jogging > img{
-    
-        width: 287px;
+    .jogging>img {
+       
+        
+     width: 287px;
         height: 170px;
         margin-left: 18px;
+        }
+        .team{
+            display: none;
         }
 }
