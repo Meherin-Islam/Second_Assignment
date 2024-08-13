@@ -208,7 +208,7 @@ margin-top: 30px;
     width: 77%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 88px;
+    margin-bottom: 78px;
 }
 .equipments{
     width: 95%;
@@ -267,6 +267,134 @@ box-shadow: 10px 5px 20px 10px rgba(231, 71, 178, 0.15);
  .btn:hover , .app:hover{
     transform: scale(1.15);
  }
+
+
+ .bmi-calculator-section {
+    width: 100%;
+    margin-bottom: 88px;
+}
+
+.container-two {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    
+}
+.container-two h1{
+    margin-left: -210px;
+}
+.txt-left{
+text-align: left;
+}
+
+.bmi-content {
+    background: rgb(34, 34, 34);
+    height: 487px;
+    display: flex;
+    
+    
+}
+
+.bmi-chart{
+    background: rgb(34, 34, 34);
+  
+    border-radius: 8px;
+    width: 45%;
+    margin-right: 170px;
+}
+
+.bmi-calculator {
+    width: 577px;
+    background: rgb(34, 34, 34);
+    
+ margin-right: 177px;
+   
+}
+
+.bmi-chart h2 {
+    margin-top: 52px;
+    margin-left: 175px;
+    margin-bottom: 52px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+}
+
+.bmi-calculator h2 {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+    margin-top: 52px;
+    margin-bottom: 14px;
+}
+
+
+table {
+    width: 310px;
+height: 216px;
+margin-left: 170px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-collapse: collapse; 
+   
+}
+
+table th{
+    padding: 12px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1 ); 
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+}
+
+
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+
+.bmi-calculator p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.input-group {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+input,
+select {
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 12px 40px 12px 20px;
+width: 100%;
+border: none;
+  
+}
+
+
+
+
+
+
+
+
 .team{
     width: 77%;
     margin-left: 150px;
@@ -492,5 +620,59 @@ h4{
             gap: 20px;
         }
 
+        .container-two h1{
+            margin-left: -70px;
+            
+        }
 
+        .container-two {
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+        }
+            .bmi-content {
+                background: rgb(34, 34, 34);
+                height: 720px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .bmi-chart{
+                background: rgb(34, 34, 34);
+              
+                border-radius: 8px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .bmi-calculator {
+                width: 90%;
+                
+                margin-left: auto;
+             margin-right: auto;
+             margin-bottom: 0px;
+               
+            }
+            .bmi-chart h2 {
+                height: 20px;
+                margin-top: 34px;
+                margin-left: 20px;
+                margin-bottom: 23px;
+                  font-size: 16px;
+            
+            }
+
+            table {
+                
+            margin-left: 20px;
+             
+            }
+            
+            .bmi-calculator h2 {
+                height: 20px;
+                font-size: 16px;
+                margin-top: 42px;
+                margin-bottom: 14px;
+            }
 }
