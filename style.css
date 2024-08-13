@@ -202,7 +202,66 @@ font-weight: 900;
 margin-top: 30px;
     border-radius: 18px;
 }
+.product{
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
+}
+.equipments{
+    width: 95%;
+    margin: auto;
+   
+}
 
+.row{
+
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    gap: 20px;
+}
+.col{
+width: 270px;
+background-color: rgb(25, 27, 27);
+margin-bottom: 30px;
+padding: 5px 0px 5px 25px;
+/* border: 2px solid sienna; */
+box-shadow: 10px 5px 20px 10px rgba(231, 71, 178, 0.15);
+
+
+}
+
+.col:hover{
+    transform: scale(1.05);
+}
+
+.col img{
+    
+    width: 90%;
+    
+
+    align-self: center;
+    
+   
+}
+
+.pr-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.price{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+.rating {
+    color: #FFE234;
+}
 
 .team{
     width: 77%;
