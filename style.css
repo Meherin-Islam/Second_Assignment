@@ -131,11 +131,13 @@ font-weight: 900;
 }
 .cntr{
     text-align: center;
-    width: 670px;
+    /* width: 670px; */
+    width: 70%;
+    margin: 0 auto;
     color: rgba(255, 255, 255, 0.5);
 font-size: 1rem;
 font-weight: 400;
-margin-left: 180px;
+/* margin-left: 180px; */
 margin-bottom: 58px;
 }
 
@@ -262,7 +264,9 @@ box-shadow: 10px 5px 20px 10px rgba(231, 71, 178, 0.15);
 .rating {
     color: #FFE234;
 }
-
+ .btn:hover , .app:hover{
+    transform: scale(1.15);
+ }
 .team{
     width: 77%;
     margin-left: 150px;
@@ -481,7 +485,12 @@ h4{
         .one{
             display: none;
         }
+        .row{
 
+            display: grid;
+            grid-template-columns: repeat(1, 290px);
+            gap: 20px;
+        }
 
 
 }
