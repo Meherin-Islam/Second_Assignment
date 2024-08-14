@@ -59,7 +59,8 @@ padding: 8px 20px 8px 20px;
 
 .shape{
  display: flex;
- /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+ margin-bottom: 100px;
+
 }
 .left{
     width: 35%;
@@ -111,17 +112,84 @@ margin-left: 14px;
 .bars{
     display: none;
 }
+
+.vdo{
+    width: 206px;
+height: 96px;
+display: flex;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+background: rgba(48, 48, 48, 0.54);
+margin-top: -163px;
+margin-left: -100px;
+backdrop-filter: blur(20px);
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+  
+    border-radius: 50%;
+    margin-left: 23px;
+    margin-top: 28px;
+}
+.high{
+    color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+
+}
+.vdo p{
+    width: 108px;
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 8px;
+    color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+
+.work{
+    width: 193px;
+height: 98px;
+margin-top: -398px;
+margin-left: 240px;
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+.high2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+}
+.work p{
+    color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+margin-top: 17px;
+margin-left: 24px;
+}
+
 .habit{
     width: 75%;
     margin-left: 150px;
+    margin-bottom: 100px;
 }
 .img-container{
     width: 75%;
 height: 274px;
 display: flex;
 gap: 40px;
-margin-bottom: 100px;
+
 }
+
 h1{
 
     text-align: center;
@@ -132,13 +200,13 @@ font-weight: 900;
 }
 .cntr{
     text-align: center;
-    /* width: 670px; */
+
     width: 70%;
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.5);
 font-size: 1rem;
 font-weight: 400;
-/* margin-left: 180px; */
+
 margin-bottom: 58px;
 }
 
@@ -578,11 +646,13 @@ margin-bottom: 35px;
     
     .shape{
         flex-direction: column;
+        
     }
     .left{
         width: 80%;
         margin-top: 0px;
         margin: auto;
+        margin-bottom: 55px;
     }
     h2{
         width: 260px;
@@ -620,9 +690,48 @@ margin-bottom: 35px;
     }
 
 .right  {
+    height: 478px;
 margin-left: 20px;
 margin-right: 20px;
-margin-bottom: 0px;
+
+}
+
+.vdo{
+    width: 155.74px;
+    height: 72.58px;
+margin-top: -263px;
+margin-left: -10px;
+backdrop-filter: blur(20px);
+}
+.dot{
+    width: 30px;
+height: 27px;
+
+margin-top: 20px;
+}
+
+.vdo p{
+    font-size: 12.1px;
+    margin-top: 15px;
+    }
+
+.high{
+    font-size: 18.14px;
+
+}
+.work{
+    width: 145.91px;
+height: 74.09px;
+
+margin-top: -358px;
+margin-left: 190px;
+}
+.high2{
+    font-size: 30.24px;
+}
+.work p{
+    font-size: 9.83px;
+    margin-top: 12px;
 }
 
 .habit{
@@ -785,9 +894,7 @@ h4{
                 margin-bottom: 14px;
             }
 
-.bmi-calculator-section , .run, .product{
-    display: none;
-}
+
 
 footer {
    width: 100%;
