@@ -419,8 +419,10 @@ gap: 20px;
 
 .information{
     
-    width: 305.6px;
-    height: 272px;
+    /* width: 305.6px;
+    height: 272px; */
+    width: 325.6px;
+    height: 292px;
 
 }
 
@@ -633,7 +635,7 @@ margin-bottom: 0px;
 
 h1{
     font-size: 2rem;
-    margin-top: -10px;
+    margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 14px;
     
@@ -696,7 +698,7 @@ h4{
            margin: 66px auto;
         }
         .team-container{
-            width: 93%;
+            width: 90%;
             height: 1188px;
             border-radius: 18px;
         background: rgba(255, 255, 255, 0.1);
@@ -712,6 +714,14 @@ h4{
         .one{
             display: none;
         }
+        .mt > img{
+           
+            margin-top: 0px;
+            margin-left: 20px;
+            
+            }
+
+
         .row{
 
             display: grid;
@@ -774,4 +784,50 @@ h4{
                 margin-top: 42px;
                 margin-bottom: 14px;
             }
+
+.bmi-calculator-section , .run, .product{
+    display: none;
+}
+
+footer {
+   width: 100%;
+    height: 1000px;
+   
+}
+
+.footer-content {
+    width: 80%;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    }
+
+    .footer-links {
+        margin-top: 30px;
+     }
+
+     .footer-logo{
+        margin-top: 44px;
+     }
+
+     .footer-links h2 {
+        height: 20px;
+        margin-bottom: 39px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        border-top:  2px solid rgba(255, 255, 255, 0.1);
+        
+       
+    }
+
 }
