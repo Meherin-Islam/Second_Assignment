@@ -3,6 +3,7 @@
 body{
     font-family: "Inter", sans-serif;
     background: black;
+   
 }
 *{
     margin: 0;
@@ -58,7 +59,7 @@ padding: 8px 20px 8px 20px;
 
 .shape{
  display: flex;
- background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+ /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 }
 .left{
     width: 35%;
@@ -449,6 +450,104 @@ font-weight: 400;
 margin-left: 35px;
 margin-top: 5px;
 }
+
+
+
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    height: 489px;
+   
+}
+
+.footer-content {
+    width: 75%;
+    height: 315px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 79px;
+    
+
+   
+   
+}
+
+.footer-logo h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    
+}
+
+.footer-logo p {
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+    max-width: 400px;
+   margin-top: 20px;
+}
+
+.footer-links , .footer-logo{
+   margin-top: 66px;
+}
+
+.footer-links h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 15px;
+}
+
+.footer-links ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:  2px solid rgba(255, 255, 255, 0.1);
+    
+   
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 36px;
+margin-bottom: 35px;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
